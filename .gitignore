@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+out/
+note/*.aux
+note/*.log
+note/*.out
+note/*.fls
+note/*.fdb_latexmk
+note/*.synctex.gz

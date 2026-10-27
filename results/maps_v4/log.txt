@@ -1,0 +1,28 @@
+[    0.3 min] checkpoint audit ok; devices ['Tesla T4', 'Tesla T4']
+[    0.5 min] stepping == solve_batch: True
+[    0.5 min] v4 part 0 puzzles: [38, 52, 121, 149, 206, 265, 814, 1570, 1788, 1859, 1982]
+[    0.5 min] PHASE main: 11 puzzles
+[    7.1 min]   [gpu0] main r38: 97.1 sample-loops/s, eta 41.2 min
+[    7.8 min]   [gpu1] main r52: 87.1 sample-loops/s, eta 45.9 min
+[   43.1 min] [gpu0] main row 38: kappa 0.4169096674929203, H nan, alpha nan, lambda1 1.8897518912597526
+[   48.1 min] [gpu1] main row 52: kappa None, H 0.5227212526702011, alpha 0.959553437197835, lambda1 2.575172005341977
+[   49.8 min]   [gpu0] main r121: 95.7 sample-loops/s, eta 41.8 min
+[   55.6 min]   [gpu1] main r149: 85.9 sample-loops/s, eta 46.6 min
+[   85.8 min] [gpu0] main row 121: kappa 0.9216528678948902, H 0.2987735540523507, alpha 0.5085643380424547, lambda1 2.064046279567501
+[   92.5 min]   [gpu0] main r206: 96.0 sample-loops/s, eta 41.7 min
+[   95.6 min] [gpu1] main row 149: kappa 1.0819442199772307, H nan, alpha 0.7469944203368326, lambda1 1.5384494114038894
+[  103.1 min]   [gpu1] main r265: 85.5 sample-loops/s, eta 46.8 min
+[  128.4 min] [gpu0] main row 206: kappa 0.053681928326352546, H nan, alpha nan, lambda1 2.19911144232852
+[  135.1 min]   [gpu0] main r814: 96.2 sample-loops/s, eta 41.6 min
+[  143.2 min] [gpu1] main row 265: kappa 0.40021555693995714, H nan, alpha nan, lambda1 2.063892985386575
+[  150.6 min]   [gpu1] main r1570: 85.9 sample-loops/s, eta 46.5 min
+[  170.9 min] [gpu0] main row 814: kappa 0.11842285833416745, H nan, alpha 0.593611335818625, lambda1 1.9843939396073642
+[  177.6 min]   [gpu0] main r1788: 96.3 sample-loops/s, eta 41.5 min
+[  190.7 min] [gpu1] main row 1570: kappa 0.12160435757157864, H nan, alpha nan, lambda1 1.8757036447229019
+[  198.2 min]   [gpu1] main r1859: 85.5 sample-loops/s, eta 46.8 min
+[  213.5 min] [gpu0] main row 1788: kappa None, H 0.39385269035812354, alpha 0.9012752285540502, lambda1 1.7485795168518456
+[  220.2 min]   [gpu0] main r1982: 96.1 sample-loops/s, eta 41.6 min
+[  238.2 min] [gpu1] main row 1859: kappa None, H 0.38733199320325185, alpha 0.5742040289310907, lambda1 1.539206356211789
+[  256.1 min] [gpu0] main row 1982: kappa 0.47673718638086154, H 0.2693076056620288, alpha 0.5924453854233107, lambda1 2.349562236709117
+[  256.2 min] TEST {"n": 2, "spearman_H_pred": 0.9999999999999999, "perm_p_one_sided": 0.50129, "median_abs_diff": 0.10707829814447985, "slope_through_origin": 0.7817456879932937, "spearman_H_kappa_alone": 0.9999999999999999, "note": "per-part numbers; bars C0-C2 are evaluated on the POOLED two parts offline (PREREG_v4_confirmation.md)"}
+[  256.2 min] ALL DONE 256.2 min

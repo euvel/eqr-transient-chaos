@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Transient chaos in a latent-reasoning model: escape rate, Lyapunov exponent and the uncertainty exponent"
+authors:
+  - alias: "Euvel"
+date-released: 2026-10-27
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/euvel/eqr-transient-chaos"
+keywords:
+  - transient chaos
+  - uncertainty exponent
+  - escape rate
+  - Lyapunov exponent
+  - fractal basins
+  - latent reasoning
+references:
+  - type: article
+    title: "Fractal basins trap latent reasoning"
+    authors:
+      - family-names: Lai
+        given-names: Jeffrey
+      - family-names: Bao
+        given-names: Anthony
+      - family-names: Quinn
+        given-names: John
+      - family-names: Gilpin
+        given-names: William
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2609.04963"

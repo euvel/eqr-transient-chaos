@@ -1,0 +1,27 @@
+{
+ "rule": "v3b screen qualifiers minus v3b selected (PREREG_v4_confirmation.md)",
+ "derivation": "medians transcribed from the v3b log; 30 rows have median in [2,30], v3b reported 29 qualifying; excluding row 169 (median 21, kappa_screen 0.022) is the ONLY single exclusion that reproduces v3b's 8 selected rows by its own rule. To be re-checked against v3b report.json when it lands.",
+ "pool": [
+  38,
+  50,
+  52,
+  74,
+  121,
+  131,
+  149,
+  174,
+  206,
+  249,
+  265,
+  267,
+  814,
+  1569,
+  1570,
+  1787,
+  1788,
+  1854,
+  1859,
+  1919,
+  1982
+ ]
+}

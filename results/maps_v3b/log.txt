@@ -1,0 +1,119 @@
+[    0.3 min] checkpoint audit ok; devices ['Tesla T4', 'Tesla T4']
+[    0.5 min] stepping == solve_batch: True
+[    0.5 min] PHASE screen: 48 candidates
+[    2.9 min]   [gpu1] screen r10: 106.3 sample-loops/s, eta 2.4 min
+[    2.9 min] [gpu1] screen row 10: kappa None, median settle 0.0
+[    3.4 min]   [gpu0] screen r3: 87.1 sample-loops/s, eta 2.9 min
+[    3.4 min] [gpu0] screen row 3: kappa None, median settle 0.0
+[    5.4 min]   [gpu1] screen r37: 103.0 sample-loops/s, eta 2.5 min
+[    5.4 min] [gpu1] screen row 37: kappa None, median settle 1.0
+[    6.4 min]   [gpu0] screen r36: 85.7 sample-loops/s, eta 3.0 min
+[    6.4 min] [gpu0] screen row 36: kappa None, median settle 2.0
+[    7.9 min]   [gpu1] screen r47: 102.8 sample-loops/s, eta 2.5 min
+[    7.9 min] [gpu1] screen row 47: kappa None, median settle 59.0
+[    9.4 min]   [gpu0] screen r38: 86.0 sample-loops/s, eta 3.0 min
+[    9.4 min] [gpu0] screen row 38: kappa 0.4738701578612612, median settle 2.0
+[   10.4 min]   [gpu1] screen r52: 102.8 sample-loops/s, eta 2.5 min
+[   10.4 min] [gpu1] screen row 52: kappa None, median settle 3.0
+[   12.4 min]   [gpu0] screen r50: 86.0 sample-loops/s, eta 3.0 min
+[   12.4 min] [gpu0] screen row 50: kappa 0.5095282808951044, median settle 3.0
+[   12.9 min]   [gpu1] screen r77: 102.8 sample-loops/s, eta 2.5 min
+[   12.9 min] [gpu1] screen row 77: kappa None, median settle 59.0
+[   15.4 min]   [gpu1] screen r102: 102.8 sample-loops/s, eta 2.5 min
+[   15.4 min] [gpu1] screen row 102: kappa 0.3013010956130083, median settle 3.0
+[   15.4 min]   [gpu0] screen r74: 86.0 sample-loops/s, eta 3.0 min
+[   15.4 min] [gpu0] screen row 74: kappa 0.6514720541855481, median settle 3.0
+[   17.9 min]   [gpu1] screen r131: 102.7 sample-loops/s, eta 2.5 min
+[   17.9 min] [gpu1] screen row 131: kappa 0.08925347106169305, median settle 9.0
+[   18.4 min]   [gpu0] screen r80: 86.0 sample-loops/s, eta 3.0 min
+[   18.4 min] [gpu0] screen row 80: kappa 0.2543514128086856, median settle 5.0
+[   20.4 min]   [gpu1] screen r169: 102.8 sample-loops/s, eta 2.5 min
+[   20.4 min] [gpu1] screen row 169: kappa 0.022217001550013535, median settle 21.0
+[   21.3 min]   [gpu0] screen r121: 85.8 sample-loops/s, eta 3.0 min
+[   21.3 min] [gpu0] screen row 121: kappa 1.0273804396664543, median settle 4.0
+[   22.9 min]   [gpu1] screen r174: 102.7 sample-loops/s, eta 2.5 min
+[   22.9 min] [gpu1] screen row 174: kappa 0.06044371420979335, median settle 11.0
+[   24.3 min]   [gpu0] screen r149: 85.8 sample-loops/s, eta 3.0 min
+[   24.3 min] [gpu0] screen row 149: kappa 1.0091824225259267, median settle 3.0
+[   25.4 min]   [gpu1] screen r206: 102.7 sample-loops/s, eta 2.5 min
+[   25.4 min] [gpu1] screen row 206: kappa 0.06065861387531657, median settle 10.0
+[   27.3 min]   [gpu0] screen r172: 85.7 sample-loops/s, eta 3.0 min
+[   27.3 min] [gpu0] screen row 172: kappa None, median settle 1.0
+[   27.9 min]   [gpu1] screen r249: 102.6 sample-loops/s, eta 2.5 min
+[   27.9 min] [gpu1] screen row 249: kappa 0.5812156302867002, median settle 2.0
+[   30.3 min]   [gpu0] screen r201: 85.7 sample-loops/s, eta 3.0 min
+[   30.3 min] [gpu0] screen row 201: kappa None, median settle 0.0
+[   30.4 min]   [gpu1] screen r267: 102.5 sample-loops/s, eta 2.5 min
+[   30.4 min] [gpu1] screen row 267: kappa 0.46060707116975785, median settle 2.0
+[   32.9 min]   [gpu1] screen r287: 102.2 sample-loops/s, eta 2.5 min
+[   32.9 min] [gpu1] screen row 287: kappa None, median settle 59.0
+[   33.3 min]   [gpu0] screen r225: 85.5 sample-loops/s, eta 3.0 min
+[   33.3 min] [gpu0] screen row 225: kappa 0.14426044583143163, median settle 8.0
+[   35.4 min]   [gpu1] screen r814: 102.7 sample-loops/s, eta 2.5 min
+[   35.4 min] [gpu1] screen row 814: kappa 0.10918931658201932, median settle 5.0
+[   36.3 min]   [gpu0] screen r265: 85.7 sample-loops/s, eta 3.0 min
+[   36.3 min] [gpu0] screen row 265: kappa 0.38408836906723814, median settle 5.0
+[   37.9 min]   [gpu1] screen r1261: 102.9 sample-loops/s, eta 2.5 min
+[   37.9 min] [gpu1] screen row 1261: kappa None, median settle 0.0
+[   39.3 min]   [gpu0] screen r286: 86.1 sample-loops/s, eta 3.0 min
+[   39.3 min] [gpu0] screen row 286: kappa None, median settle 59.0
+[   40.3 min]   [gpu1] screen r1570: 103.1 sample-loops/s, eta 2.5 min
+[   40.3 min] [gpu1] screen row 1570: kappa 0.12161100488041353, median settle 6.0
+[   42.3 min]   [gpu0] screen r663: 85.9 sample-loops/s, eta 3.0 min
+[   42.3 min] [gpu0] screen row 663: kappa 0.5203856435404963, median settle 1.0
+[   42.8 min]   [gpu1] screen r1766: 102.8 sample-loops/s, eta 2.5 min
+[   42.8 min] [gpu1] screen row 1766: kappa None, median settle 0.0
+[   45.3 min]   [gpu0] screen r1216: 85.8 sample-loops/s, eta 3.0 min
+[   45.3 min] [gpu0] screen row 1216: kappa 0.0507925923709908, median settle 13.0
+[   45.3 min]   [gpu1] screen r1786: 102.8 sample-loops/s, eta 2.5 min
+[   45.3 min] [gpu1] screen row 1786: kappa None, median settle 0.0
+[   47.8 min]   [gpu1] screen r1788: 102.8 sample-loops/s, eta 2.5 min
+[   47.8 min] [gpu1] screen row 1788: kappa None, median settle 3.0
+[   48.2 min]   [gpu0] screen r1569: 85.8 sample-loops/s, eta 3.0 min
+[   48.2 min] [gpu0] screen row 1569: kappa 0.2726130376766997, median settle 4.0
+[   50.3 min]   [gpu1] screen r1857: 102.9 sample-loops/s, eta 2.5 min
+[   50.3 min] [gpu1] screen row 1857: kappa None, median settle 1.0
+[   51.2 min]   [gpu0] screen r1630: 85.8 sample-loops/s, eta 3.0 min
+[   51.2 min] [gpu0] screen row 1630: kappa None, median settle 2.0
+[   52.8 min]   [gpu1] screen r1919: 102.4 sample-loops/s, eta 2.5 min
+[   52.8 min] [gpu1] screen row 1919: kappa 0.6408158387396984, median settle 4.0
+[   54.2 min]   [gpu0] screen r1783: 85.8 sample-loops/s, eta 3.0 min
+[   54.2 min] [gpu0] screen row 1783: kappa None, median settle 1.0
+[   55.3 min]   [gpu1] screen r1982: 103.2 sample-loops/s, eta 2.5 min
+[   55.3 min] [gpu1] screen row 1982: kappa 0.4742926565568476, median settle 3.0
+[   57.2 min]   [gpu0] screen r1787: 86.1 sample-loops/s, eta 3.0 min
+[   57.2 min] [gpu0] screen row 1787: kappa None, median settle 2.0
+[   57.8 min]   [gpu1] screen r2029: 102.8 sample-loops/s, eta 2.5 min
+[   57.8 min] [gpu1] screen row 2029: kappa None, median settle 1.0
+[   60.2 min]   [gpu0] screen r1854: 85.6 sample-loops/s, eta 3.0 min
+[   60.2 min] [gpu0] screen row 1854: kappa None, median settle 2.0
+[   60.3 min]   [gpu1] screen r2065: 102.7 sample-loops/s, eta 2.5 min
+[   60.3 min] [gpu1] screen row 2065: kappa None, median settle 2.0
+[   63.2 min]   [gpu0] screen r1859: 84.1 sample-loops/s, eta 3.0 min
+[   63.2 min] [gpu0] screen row 1859: kappa None, median settle 2.0
+[   66.3 min]   [gpu0] screen r1981: 83.7 sample-loops/s, eta 3.1 min
+[   66.3 min] [gpu0] screen row 1981: kappa None, median settle 0.0
+[   69.3 min]   [gpu0] screen r2025: 84.7 sample-loops/s, eta 3.0 min
+[   69.3 min] [gpu0] screen row 2025: kappa None, median settle 0.0
+[   72.4 min]   [gpu0] screen r2045: 84.2 sample-loops/s, eta 3.0 min
+[   72.4 min] [gpu0] screen row 2045: kappa 0.8023065647100297, median settle 3.0
+[   72.4 min] PHASE select: 29 qualify -> [36, 80, 102, 225, 1216, 1630, 2045, 2065]
+[   72.4 min] PHASE main: 8 puzzles
+[   78.3 min]   [gpu1] main r80: 108.0 sample-loops/s, eta 37.0 min
+[   80.0 min]   [gpu0] main r36: 83.8 sample-loops/s, eta 47.7 min
+[  111.8 min] [gpu1] main row 80: kappa 0.2463236371714025, H nan, alpha nan, lambda1 2.1320290431943056
+[  118.1 min]   [gpu1] main r225: 102.8 sample-loops/s, eta 38.9 min
+[  120.2 min] [gpu0] main row 36: kappa None, H 0.42944479547856723, alpha 0.6657522653452119, lambda1 1.971381702909834
+[  127.6 min]   [gpu0] main r102: 85.9 sample-loops/s, eta 46.6 min
+[  151.6 min] [gpu1] main row 225: kappa 0.1415777822630261, H nan, alpha nan, lambda1 2.0680636928697282
+[  157.8 min]   [gpu1] main r1630: 103.1 sample-loops/s, eta 38.8 min
+[  167.6 min] [gpu0] main row 102: kappa 0.3407788973846442, H 0.1804335966563974, alpha 0.5411015119185605, lambda1 2.141283469693499
+[  175.1 min]   [gpu0] main r1216: 86.3 sample-loops/s, eta 46.4 min
+[  191.4 min] [gpu1] main row 1630: kappa None, H 0.5336418710362706, alpha 0.8047539365809326, lambda1 2.289866676220618
+[  197.6 min]   [gpu1] main r2065: 103.0 sample-loops/s, eta 38.8 min
+[  215.1 min] [gpu0] main row 1216: kappa 0.04937597102747255, H nan, alpha nan, lambda1 2.210179215800954
+[  222.5 min]   [gpu0] main r2045: 86.3 sample-loops/s, eta 46.4 min
+[  231.1 min] [gpu1] main row 2065: kappa None, H 0.3190819612041864, alpha nan, lambda1 2.5930420735410906
+[  263.3 min] [gpu0] main row 2045: kappa 0.858004442533303, H nan, alpha nan, lambda1 2.4194255856235425
+[  263.3 min] TEST {"n": 1, "verdict": "UNDETERMINED (B0: fewer than 5 puzzles with finite H, kappa, lambda1)"}
+[  263.3 min] ALL DONE 263.3 min

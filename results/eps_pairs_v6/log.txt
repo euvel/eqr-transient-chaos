@@ -1,0 +1,25 @@
+[    0.5 min] checkpoint audit ok; devices ['Tesla T4', 'Tesla T4']
+[    1.1 min] true-fp64 check: d(1e-3)/d(1e-6) at loop 0 = 1000.01 (must be ~1000)
+[    1.2 min] stepping == solve_batch (fp64, patched): True
+[   12.2 min] [gpu1] row 1570 eps 0.001: f_obs 0.500 (24/48)  f_pred 0.455 (D=0: 0.581)  c_med 0.0359  [658s]
+[   12.2 min] [gpu0] row 1570 eps 0.1: f_obs 0.688 (33/48)  f_pred 0.623 (D=0: 0.905)  c_med 0.0362  [661s]
+[   23.2 min] [gpu1] row 1570 eps 1e-08: f_obs 0.229 (11/48)  f_pred 0.215 (D=0: 0.267)  c_med 0.0359  [663s]
+[   23.3 min] [gpu0] row 1570 eps 1e-05: f_obs 0.458 (22/48)  f_pred 0.337 (D=0: 0.416)  c_med 0.0359  [662s]
+[   29.1 min] [gpu1] row 80 eps 0.1: f_obs 0.646 (31/48)  f_pred 0.559 (D=0: 0.946)  c_med 0.0154  [355s]
+[   34.3 min] [gpu0] row 1570 eps 1e-12: f_obs 0.208 (10/48)  f_pred 0.127 (D=0: 0.150)  c_med 0.0372  [663s]
+[   35.0 min] [gpu1] row 80 eps 0.001: f_obs 0.438 (21/48)  f_pred 0.301 (D=0: 0.510)  c_med 0.0153  [354s]
+[   40.2 min] [gpu0] row 80 eps 1e-05: f_obs 0.292 (14/48)  f_pred 0.170 (D=0: 0.269)  c_med 0.0153  [355s]
+[   40.9 min] [gpu1] row 80 eps 1e-08: f_obs 0.104 (5/48)  f_pred 0.082 (D=0: 0.119)  c_med 0.0153  [354s]
+[   44.1 min] [gpu1] row 1982 eps 0.1: f_obs 0.562 (27/48)  f_pred 0.455 (D=0: 0.799)  c_med 0.0881  [189s]
+[   46.1 min] [gpu0] row 80 eps 1e-12: f_obs 0.062 (3/48)  f_pred 0.029 (D=0: 0.043)  c_med 0.0177  [355s]
+[   47.3 min] [gpu1] row 1982 eps 0.001: f_obs 0.250 (12/48)  f_pred 0.199 (D=0: 0.422)  c_med 0.0907  [189s]
+[   49.3 min] [gpu0] row 1982 eps 1e-05: f_obs 0.104 (5/48)  f_pred 0.067 (D=0: 0.177)  c_med 0.0908  [189s]
+[   50.4 min] [gpu1] row 1982 eps 1e-08: f_obs 0.000 (0/48)  f_pred 0.014 (D=0: 0.037)  c_med 0.0908  [189s]
+[   52.4 min] [gpu0] row 1982 eps 1e-12: f_obs 0.000 (0/48)  f_pred 0.003 (D=0: 0.005)  c_med 0.0825  [189s]
+[   53.6 min] [gpu1] row 149 eps 0.1: f_obs 0.583 (28/48)  f_pred 0.159 (D=0: 0.653)  c_med 0.0456  [189s]
+[   55.6 min] [gpu0] row 149 eps 0.001: f_obs 0.125 (6/48)  f_pred 0.009 (D=0: 0.036)  c_med 0.0455  [189s]
+[   56.7 min] [gpu1] row 149 eps 1e-05: f_obs 0.021 (1/48)  f_pred 0.001 (D=0: 0.005)  c_med 0.0455  [189s]
+[   58.8 min] [gpu0] row 149 eps 1e-08: f_obs 0.000 (0/48)  f_pred 0.000 (D=0: 0.000)  c_med 0.0455  [189s]
+[   59.9 min] [gpu1] row 149 eps 1e-12: f_obs 0.000 (0/48)  f_pred 0.000 (D=0: 0.000)  c_med 0.0511  [189s]
+[   59.9 min] RESULT {"n_jobs_done": 20, "E0_puzzles_complete": 4, "E0_pass": true, "E1_delay": {"n_points": 13, "E1a_spearman": 0.8186813186813187, "E1b_median_abs_log_ratio": 0.3097996718566175, "E1c_frac_within_factor2": 0.9230769230769231, "median_log_ratio": 0.3097996718566175, "E1_pass": true}, "PASS": true, "contrast_D0": {"n_points": 13, "E1a_spearman": 0.945054945054945, "E1b_median_abs_log_ratio": 0.15052015207104613, "E1c_frac_within_factor2": 1.0, "median_log_ratio": -0.1504513435128112, "E1_pass": true}, "D3_best_delay_on_v6": 0.75, "D3_in_band_1.0_2.75": false, "E2_slopes": {"1570": {"slope": 0.04995097092935867, "kappa_over_lambda1": 0.06483132765333155, "n_levels": 5}, "80": {"slope": 0.09734982346792684, "kappa_over_lambda1": 0.11553484130889179, "n_levels": 5}, "1982": {"slope": 0.1830984399557422, "kappa_over_lambda1": 0.2029046853632603, "n_levels": 3}, "149": {"slope": 0.33450339047928757, "kappa_over_lambda1": 0.7032692865668676, "n_levels": 2}}, "E2_spearman_slope_vs_kl": 1.0}
+[   59.9 min] ALL DONE 59.9 min
