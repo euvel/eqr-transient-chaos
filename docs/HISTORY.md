@@ -1,4 +1,4 @@
-# Project history (25–27 October 2026)
+# Project history (25–28 October 2026)
 
 This log is chronological and includes the dead ends. Runs marked † produced data that is **not** in this repository:
 they were exploratory, or affected by the precision problems described below. Their conclusions are used here only
@@ -60,3 +60,15 @@ Two independent problems made "float64" EqR runs float32:
 The early float64 comparisons (v1, v2 sub-grids) were therefore float32 against float32 rounding; they were corrected
 in our notes and are not used here. All $\varepsilon$-pair data in this repository come from runs that patch both and
 verify true float64 in-kernel. Reported as [GilpinLab/loopscape#1](https://github.com/GilpinLab/loopscape/issues/1).
+
+## Rough or filamentary? (27–28 Oct; details in [cross_boundary/](../cross_boundary/))
+- **Spectrum route:** a pre-registered test on 4 puzzles with replicates gave NOT-SKEW, but the count of positive
+  exponents was not reproducible within a puzzle (11 vs 9), so the verdict is noise-limited. A GPU run to sharpen it was
+  prepared but not run: its most likely outcome would not have decided the question.
+- **Direct route:** probing along the cross direction works in toys, but needs precision that grows like 1/h (two
+  laws, measured over 37 decades), and with feedback it needs genuine kick-free orbits. A feasibility smoke on puzzle
+  1982 failed (stagger-and-step cannot hold fast puzzles), and a double-double plan was stopped at a toy gate.
+- **Other observables:** survival regression, slice topology and escape-triggered averages all failed on toys. One of
+  them faked a "rough" signal in a filamentary toy, which is why every method was calibrated on toys before use on EqR.
+- **Small models:** three tiny trained looped reasoners were not chaotic, so the affordable small-model test could not
+  be run.

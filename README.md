@@ -29,6 +29,7 @@ Bódai & Lucarini 2020, eq. 24].
 | 4 | The boundaries are not "slim" | No steepening of $f(\varepsilon)$ over 11 decades: curvature +0.006 (95% CI −0.09 to +0.07); largest small-$\varepsilon$ slope 0.22 | Measured (7 puzzles) |
 | 5 | A simple horizon law gets the amplitude within about 2× | $f \approx \langle S(\ln(0.1/d_0)/\lambda_1)\rangle$: 77% of 31 points within 2× (87% with each run's own survival curve); bias ≈ −20% | Partial: **failed** its registered bar in v5 (61% < 70%); held in v6 |
 | 6 | `dtype=float64` in loopscape's EqR path runs in float32 | dtype-map fallback, plus upstream `rms_norm` casting to float32 | Reported: [GilpinLab/loopscape#1](https://github.com/GilpinLab/loopscape/issues/1) |
+| 7 | Rough vs filamentary boundaries: undecidable for EqR in practice | Every practical observable is degenerate or confounded; the one working probe needs a genuine 450–850-loop orbit in 460–860-digit arithmetic ([cross_boundary/](cross_boundary/)) | Second note; laws verified on toys |
 | ✗ | A constant "commitment delay" of ~2 loops | Fitted after v5, then tested on new puzzles in v6 | **Rejected** (refit 0.75 loops, outside the predicted 1.0–2.75; no delay fits better) |
 
 Result 3 bears on an expectation in Lai et al. ("most reasoning models will exhibit some form of doubly transient
@@ -71,6 +72,15 @@ survival with rate $\kappa$.
   99,000-dimensional state (two $97 \times 512$ latents) whose transient obeys the same relation as a low-dimensional
   chaotic saddle.
 
+## Follow-up: rough or filamentary?
+
+$\alpha = \kappa/\lambda_{\max}$ holds for both kinds of fractal boundary in Bódai & Lucarini's classification, so it
+cannot say which one EqR has. A second note, [*Rough basin boundaries are computationally hidden*](cross_boundary/note/note.pdf),
+reports the attempt to decide it. It measures EqR's chaotic set directly: 7–11 positive Lyapunov exponents, a leak of
+0.6–3% of the stretching, abrupt "snap" escapes, and churn concentrated in the contested cells. It then shows, on toy
+systems of known type, why every practical observable fails, and it measures the precision cost of the one probe that
+works. For EqR that cost is out of reach. Details and code: [cross_boundary/](cross_boundary/).
+
 ## Setup
 
 | | |
@@ -98,7 +108,7 @@ python analysis/figures.py           # figures/
 Every number in this README is printed by one of these scripts from the raw outputs in [results/](results/). The GPU
 experiments that produced those outputs are in [experiments/](experiments/). They install loopscape at the pinned
 commit, verify the checkpoint hash, and audit its pickle before loading. [repro/](repro/) contains the 10-second CPU
-reproduction of result 6.
+reproduction of result 6. The follow-up (result 7) has its own instructions in [cross_boundary/](cross_boundary/).
 
 ## How this was done (and what failed)
 
@@ -123,8 +133,9 @@ The full history is in [docs/HISTORY.md](docs/HISTORY.md).
 - One model (EqR) and one task (Sudoku): 9 puzzles for the exponent, 19 for $\lambda_1$, one 2D slice.
 - Slopes come from 2–5 $\varepsilon$ levels with 48 pairs each. Puzzle 149 ($\kappa/\lambda_1 = 0.70$) has only 2
   usable levels and the largest deviation (ratio 0.48).
-- $\alpha = \kappa/\lambda_{\max}$ does not distinguish rough from filamentary boundaries (Bódai & Lucarini 2020);
-  that needs the cross-boundary Lyapunov exponent, which was not measured.
+- $\alpha = \kappa/\lambda_{\max}$ does not distinguish rough from filamentary boundaries (Bódai & Lucarini 2020).
+  The follow-up in [cross_boundary/](cross_boundary/) shows why the cross-boundary exponent is out of practical reach
+  for EqR.
 - Survival is exponential *within* loop caps of 120–150 with at least 20 trajectories still at risk; slower changes
   beyond that window cannot be excluded.
 

@@ -1,0 +1,138 @@
+{
+ "D32_H128": {
+  "test_acc": 0.97,
+  "puzzles": [
+   {
+    "clues": 4,
+    "T_max": 9,
+    "T_median": 6.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 6,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 4,
+    "T_max": 5,
+    "T_median": 3.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 3,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 4,
+    "T_max": 7,
+    "T_median": 5.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 5,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 6,
+    "T_median": 3.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 2,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 4,
+    "T_median": 3.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 2,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 4,
+    "T_median": 4.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 1,
+    "lambda1": null,
+    "pass": false
+   }
+  ],
+  "n_pass": 0,
+  "G1": false,
+  "minutes": 0.9
+ },
+ "D64_H256": {
+  "test_acc": 0.9966666666666667,
+  "puzzles": [
+   {
+    "clues": 4,
+    "T_max": 7,
+    "T_median": 5.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 3,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 4,
+    "T_max": 7,
+    "T_median": 4.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 4,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 4,
+    "T_max": 300,
+    "T_median": 300.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 0,
+    "lambda1": -0.14198448237621503,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 3,
+    "T_median": 2.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 1,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 4,
+    "T_median": 2.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 2,
+    "lambda1": null,
+    "pass": false
+   },
+   {
+    "clues": 5,
+    "T_max": 4,
+    "T_median": 3.0,
+    "kappa": null,
+    "r2": null,
+    "n_fit": 2,
+    "lambda1": null,
+    "pass": false
+   }
+  ],
+  "n_pass": 0,
+  "G1": false,
+  "minutes": 1.5
+ }
+}

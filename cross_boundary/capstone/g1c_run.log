@@ -1,0 +1,6 @@
+step 3000: loss 0.0759 (4.8 min)
+saved at step 3000
+steps trained 3000; test accuracy 0.940
+    {'clues': 4, 'T_max': 300, 'T_median': 299.0, 'kappa': None, 'r2': None, 'n_fit': 3, 'lambda1': 0.00916860812608173, 'lambda1_all': [0.007, 0.007, 0.009, 0.003, 0.01, 0.01, 0.01, 0.01], 'pass': False} [4.5 min]
+    {'clues': 4, 'T_max': 32, 'T_median': 18.0, 'kappa': None, 'r2': None, 'n_fit': 4, 'lambda1': 0.022320979597274505, 'lambda1_all': [0.111, 0.055, 0.041, 0.033, -0.007, 0.012, -0.008, 0.012], 'pass': False} [9.1 min]
+    {'clues': 4, 'T_max': 300, 'T_median': 300.0, 'kappa': None, 'r2': None, 'n_fit': 1, 'lambda1': 0.01707165024174291, 'lambda1_all': [0.016, 0.011, 0.017, 0.017, 0.017, 0.017, 0.019, 0.019], 'pass': False} [13.5 min]

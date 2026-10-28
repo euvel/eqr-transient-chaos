@@ -1,0 +1,74 @@
+{
+ "rough_A": {
+  "n_alive_at_A": 89259,
+  "survived_frac": 0.135,
+  "mean_local_exponents": [
+   1.058,
+   0.978,
+   0.304,
+   -0.705
+  ],
+  "beta_std": [
+   -0.245,
+   -1.521,
+   -0.454,
+   0.068
+  ],
+  "z": [
+   -22.3,
+   -96.1,
+   -36.3,
+   6.3
+  ],
+  "k_star": 2,
+  "verdict": "ROUGH"
+ },
+ "rough_B": {
+  "n_alive_at_A": 109370,
+  "survived_frac": 0.193,
+  "mean_local_exponents": [
+   1.316,
+   0.663,
+   0.245,
+   -0.695
+  ],
+  "beta_std": [
+   -1.523,
+   -0.199,
+   0.029,
+   0.009
+  ],
+  "z": [
+   -131.3,
+   -23.0,
+   3.5,
+   0.9
+  ],
+  "k_star": 1,
+  "verdict": "FILAM"
+ },
+ "filam": {
+  "n_alive_at_A": 92037,
+  "survived_frac": 0.446,
+  "mean_local_exponents": [
+   1.086,
+   0.685,
+   -0.66,
+   -0.676
+  ],
+  "beta_std": [
+   1.753,
+   0.256,
+   0.212,
+   0.226
+  ],
+  "z": [
+   142.5,
+   30.0,
+   24.1,
+   25.6
+  ],
+  "k_star": 3,
+  "verdict": "ROUGH"
+ }
+}
